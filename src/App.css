@@ -1,9 +1,71 @@
-.Greet {
+
+/* App.js */
+h1{
+  margin: 0em;
+  font-family: 'Raleway', sans-serif;
+}
+.AppContainer{
   text-align: center;
-  color: #61dafb;
 }
 
-.Container {
-  padding: 20em;
-  background-color: black;
+/* Header.js */
+.HeaderBack{
+  width: 100%;
+  background-image: url(./img/trianglify-lowres.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.HeaderContainer {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 35em;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./img/jessy-smith-zFOm6KzA-7g-unsplash.jpeg);
+}
+.HeaderTitle{
+  font-weight: 400;
+  text-align: center;
+  color:white;
+  font-size: 3.5rem;
+  line-height: 10em;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+/* GrobalNav.js */
+.GlobalNav{
+  border: solid 1px wheat;
+  background-color: #87dfd6;
+}
+.GlobalNav ul{
+  justify-content: center;
+  padding-left: 0em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: flex;
+  margin: 0em;
+  list-style: none;
+}
+.GlobalNav ul li a{
+  padding-left: 2em;
+  padding-right: 2em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main.js */
+.MainContainer{
+  background-color: #dff5f2;
+  height: 100em;
+}
+.ProfileTitle{
+  padding-top: 1.5em;
+  color: #204051;
+  font-size: 4em;
 }
