@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header';
 import GlobalNav from './Components/GlobalNav';
 import Main from './Components/Main';
+import Footer from './Components/Footer';
 import Sticky from 'react-sticky-el';
 
 class App extends React.Component{
@@ -15,6 +16,7 @@ class App extends React.Component{
         <GlobalNav/>
       </Sticky>
       <Main/>
+      <Footer/>
     </div>
     );
   }

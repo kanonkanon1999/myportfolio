@@ -1,11 +1,17 @@
 
 /* App.js */
-h1{
+.Icon{
+  padding-right:0.4em;
+}
+h1,h2{
   margin: 0em;
-  font-family: 'Raleway', sans-serif;
 }
 .AppContainer{
   text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+ul {
+  list-style: none;
 }
 
 /* Header.js */
@@ -37,35 +43,153 @@ h1{
 
 /* GrobalNav.js */
 .GlobalNav{
-  border: solid 1px wheat;
-  background-color: #87dfd6;
+  background-color: #46b7b9;
 }
 .GlobalNav ul{
+  align-items: center;
   justify-content: center;
   padding-left: 0em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  height: 5em;
   display: flex;
   margin: 0em;
-  list-style: none;
+}
+.GlobalNav ul li{
+  height: 5em;
+  transition: all 0.5s;
 }
 .GlobalNav ul li a{
-  padding-left: 2em;
-  padding-right: 2em;
-  font-family: 'Raleway', sans-serif;
-  font-size: 2.5em;
+  padding-bottom: 0.1em;
+  line-height: 3em;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 1.7em;
   font-weight: 600;
   color: #fff;
   text-decoration: none;
 }
+.GlobalNav ul li a:hover{
+  border-bottom: #fff solid 0.05em;
+}
+.GlobalNav ul li:hover{
+  background-color: rgb(47,146,151,0.5);
+}
 
 /* Main.js */
 .MainContainer{
-  background-color: #dff5f2;
-  height: 100em;
+  background:linear-gradient(#9ee6cf, #1aa59a);
 }
-.ProfileTitle{
+.ProfileTitle, .SkillTitle, .WorksTitle, .ContactTitle{
   padding-top: 1.5em;
+  padding-bottom: 1em;
+  color: #204051;
+  font-size: 3em;
+}
+.Flex{
+  display: flex;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* Profile */
+.ProfileImg{
+  margin: 2.5em;
+  margin-top: 4em;
+  width: 15em;
+  height: 15em;
+}
+.ProfileCard{
+  text-align: left;
+  padding: 1em;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+  border-radius: 3px;
+  height: 23em;
+  width:600px;
+  background-color: rgb(255,255,255,0.6);
+}
+.ProfileText{
+  color: #204051;
+  font-family: "M PLUS Rounded 1c";
+  font-size: 1.2em;
+}
+/* Skill */
+.SkillCard{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+  border-radius: 3px;
+  height: 25em;
+  width:700px;
+  background-color: rgb(255,255,255,0.6);
+}
+.SkillLogo {
+  margin-left: 1em;
+  margin-top: 3em;
+  width:7em;
+}
+/* Works */
+.Work1Img{
+  width: 240px;
+  border-radius: 3px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+  transition: all 0.5s;
+}
+.Work1Img:hover{
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+/* Explanation */
+.Explanation {
+  margin-top: 1em;
+  background-color: rgb(255,255,255,0.6);
+}
+.info {
+  height: 20em;
+  font-size: 1.2em;
+  color: #204051;
+  font-family: "M PLUS Rounded 1c";
+}
+.infoTitle {
+  padding: 0.8em;
+  color: #1aa59a;
+  font-size: 2em;
+}
+.infoRow {
+  margin-left: auto;
+  margin-right: auto;
+  width:40em;
+  line-height: 3em;
+  border-bottom: #52BDAD solid 0.05em;
+}
+.infoLeft {
+  width: 300px;
+  float: left;
+}
+.Logo {
+  padding: 1.5em 0.5em 0.5em 0.5em;
+  width:3em;
+}
+/* contact */
+.Twitter{
+  padding-bottom: 0.5em;
   color: #204051;
   font-size: 4em;
+  transition: all 1s;
+}
+.Twitter:hover{
+  color:rgb(255,255,255,0.7);
+}
+.ContactsubTitle{
+  font-family: "M PLUS Rounded 1c";
+  color: #204051;
+  font-size: 1em;
+  padding-bottom: 2em;
+}
+/* Footer.js */
+.FooterContainer{
+  height: 3em;
+  background-color: #204051;
+}
+.Copyright{
+  line-height: 3em;
+  color:#fff;
 }
