@@ -11,25 +11,25 @@ class Explanation extends React.Component {
               <h2 className='infoTitle'>portfolio</h2>
               <ul className='info'>
                   <li className='infoRow'>
-                    <text className='infoLeft'>URL</text>
+                    <p className='infoLeft'>URL</p>
                     <a href = 'https://github.com/kanonkanon1999/myportfolio'>
-                      <text>https://github.com/kanonkanon1999/myportfolio</text>
+                      <p>https://github.com/kanonkanon1999/myportfolio</p>
                     </a>
                   </li>
                   <li className='infoRow'>
-                    <text className='infoLeft'>ソースコード</text>
+                    <p className='infoLeft'>ソースコード</p>
                     <a href = 'https://github.com/kanonkanon1999/myportfolio'>
-                      <text>https://github.com/kanonkanon1999/myportfolio</text>
+                      <p>https://github.com/kanonkanon1999/myportfolio</p>
                     </a>
                   </li>
                   <li className='infoRow'>
-                      <text className='infoLeft'>説明</text>
-                      <text>
+                      <p className='infoLeft'>説明</p>
+                      <p>
                           このサイトです。Reactで作成しました。
-                      </text>
+                      </p>
                   </li>
                   <li className='infoRow'>
-                      <text className='infoLeft'>使用した技術</text>
+                      <p className='infoLeft'>使用した技術</p>
                       <img src = {ReactLogo} alt='react' className='Logo'/>
                       <img src = {CSSLogo} alt='css' className='Logo'/>
                       <img src = {GithubLogo} alt='github' className='Logo'/>

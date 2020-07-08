@@ -12,8 +12,11 @@ import react from '../img/react-logo.png';
 import 'font-awesome/css/font-awesome.min.css'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Explanation from './Explanation';
+import { CSSTransition } from 'react-transition-group';
+import { Link } from "react-scroll";
 
 class Main extends React.Component{
+
   render(){
     return (
       <div className='MainContainer'>
@@ -22,14 +25,14 @@ class Main extends React.Component{
             <div className='Flex'>
               <img src={Facephoto} alt='プロフィール画像' className='ProfileImg'/>
               <div className='ProfileCard'>
-                  <text className='ProfileText'>
+                  <p className='ProfileText'>
                     はじめまして。かのん<a href='https://twitter.com/kanonkanon1999'>(@kanonkanon1999)</a>と申します。
                     <br/>1999年生まれ。愛知県在住。偏差値65の高校を家庭の事情により中退。絶望し、しばらく引きこもり生活を送る。
                     アルバイトをしながら高卒認定試験を受け貯金をし予備校へ通うも、フリーランスとして生きることや自分一人で物やサービスを
                     作ることで生きていくことに憧れを持ち、辞める。プログラミングを独学で学び始め、悪戦苦闘しながらもその楽しさに夢中になる。
                     <br/>将来の目標は、過去の自分のように環境や様々な障壁によって苦しんでいる方が自分らしい生き方が出来るようサポートするサービスを開発すること。
                     <br/>現在はReact、 ReactNativeでWeb制作とアプリ開発の勉強をしています。
-                  </text>
+                  </p>
               </div>
             </div>
         </div>
@@ -65,6 +68,16 @@ class Main extends React.Component{
               DMにてお気軽にご連絡ください
             </h2>
         </div>
+        <Link
+          activeClass="active"
+          to="HeaderBack"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {800}
+        >
+        <FontAwesomeIcon className='IconToTop' icon={['fas', 'arrow-circle-up']} />
+        </Link>
       </div>
     );
   }
