@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.648c5b0b.chunk.css",
+    "main.js": "/myportfolio/static/js/main.1b6305ee.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.1b6305ee.chunk.js.map",
+    "runtime-main.js": "/myportfolio/static/js/runtime-main.6542c2ab.js",
+    "runtime-main.js.map": "/myportfolio/static/js/runtime-main.6542c2ab.js.map",
+    "static/css/2.a801c18a.chunk.css": "/myportfolio/static/css/2.a801c18a.chunk.css",
+    "static/js/2.764f77c8.chunk.js": "/myportfolio/static/js/2.764f77c8.chunk.js",
+    "static/js/2.764f77c8.chunk.js.map": "/myportfolio/static/js/2.764f77c8.chunk.js.map",
+    "index.html": "/myportfolio/index.html",
+    "precache-manifest.3746cd354a1b8cac24d93157b26817d1.js": "/myportfolio/precache-manifest.3746cd354a1b8cac24d93157b26817d1.js",
+    "service-worker.js": "/myportfolio/service-worker.js",
+    "static/css/2.a801c18a.chunk.css.map": "/myportfolio/static/css/2.a801c18a.chunk.css.map",
+    "static/css/main.648c5b0b.chunk.css.map": "/myportfolio/static/css/main.648c5b0b.chunk.css.map",
+    "static/js/2.764f77c8.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.764f77c8.chunk.js.LICENSE.txt",
+    "static/media/2020-07-03 23.53.38.jpeg": "/myportfolio/static/media/2020-07-03 23.53.38.763c1772.jpeg",
+    "static/media/IMG_1095_0623102729.png": "/myportfolio/static/media/IMG_1095_0623102729.367e245b.png",
+    "static/media/css3-logo.png": "/myportfolio/static/media/css3-logo.71837401.png",
+    "static/media/font-awesome.min.css": "/myportfolio/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/github-logo.png": "/myportfolio/static/media/github-logo.ecc4cf25.png",
+    "static/media/App.css": "/myportfolio/static/media/trianglify-lowres.cf9f1d33.png",
+    "static/media/jquery-logo.png": "/myportfolio/static/media/jquery-logo.42426e79.png",
+    "static/media/js-logo.png": "/myportfolio/static/media/js-logo.d3304b83.png",
+    "static/media/react-logo.png": "/myportfolio/static/media/react-logo.70f87bba.png",
+    "static/media/sass-logo.png": "/myportfolio/static/media/sass-logo.6d454ae4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6542c2ab.js",
+    "static/css/2.a801c18a.chunk.css",
+    "static/js/2.764f77c8.chunk.js",
+    "static/css/main.648c5b0b.chunk.css",
+    "static/js/main.1b6305ee.chunk.js"
+  ]
+}
