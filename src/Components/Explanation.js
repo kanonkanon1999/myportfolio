@@ -12,8 +12,8 @@ class Explanation extends React.Component {
               <ul className='info'>
                   <li className='infoRow'>
                     <p className='infoLeft'>URL</p>
-                    <a href = 'https://github.com/kanonkanon1999/myportfolio'>
-                      <p>https://github.com/kanonkanon1999/myportfolio</p>
+                    <a href = 'https://kanonkanon1999.github.io/myportfolio/'>
+                      <p>https://kanonkanon1999.github.io/myportfolio/</p>
                     </a>
                   </li>
                   <li className='infoRow'>
